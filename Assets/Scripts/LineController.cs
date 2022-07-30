@@ -17,6 +17,7 @@ public class LineController : MonoBehaviour
     //모드 보조 변수
     private float throwStartTime; //던지기 시작 시간
     private float rewindStartTime; //되감기 시작 시간
+    private bool isNewClick; //새로운 클릭인지 여부 (타게팅 전 클릭이 입력되는 것을 방지)
 
     //플레이어가 결정하는 값
     private Vector2 pressPosition; //조준한 위치
@@ -94,42 +95,54 @@ public class LineController : MonoBehaviour
             }
         }
     }
-
+    
     private bool SetTargetPoint()
     {
         //설명: 타겟 지점(pressPosition)과 던지는 힘(throwPower) 구하기. 완료 시 true 반환
 
         if (Input.GetMouseButtonDown(0)) //누르는 순간 수행
         {
-            //던지는 힘 초기화
-            throwPower = 0;
-
-            //타겟 포인트 표시
-            Vector2 mousePosition = Input.mousePosition;
-            targetPoint.transform.position = mousePosition;
-            targetPoint.SetActive(true);
+            isNewClick = true;
 
             //타겟 포인트 좌표 저장
+            Vector2 mousePosition = Input.mousePosition;
             pressPosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
+            if (pressPosition.y <= 2.5) //바다 영역 클릭 시 유효
+            {
+                //던지는 힘 초기화
+                throwPower = 0;
+
+                //타겟 포인트 표시
+                targetPoint.transform.position = mousePosition;
+                targetPoint.SetActive(true);
+
+            }
         }
 
         if (Input.GetMouseButton(0)) //누르는 동안 수행
         {
-            //던지는 힘 측정        
-            if (throwPower <= 1)
+            if(pressPosition.y <= 2.5)
             {
-                throwPower += Time.deltaTime;
-                barFill.fillAmount = throwPower;
+                //던지는 힘 측정        
+                if (throwPower <= 1)
+                {
+                    throwPower += Time.deltaTime;
+                    barFill.fillAmount = throwPower;
+                }
             }
         }
 
         if (Input.GetMouseButtonUp(0)) //누르기 멈추면 수행
         {
-            //타겟 포인트 표시 해제
-            targetPoint.SetActive(false);
+            if (pressPosition.y <= 2.5 & isNewClick)
+            {
+                //타겟 포인트 표시 해제
+                targetPoint.SetActive(false);
 
-            return true;
+                isNewClick = false;
+                return true;
+            }
         }
         return false;
     }
