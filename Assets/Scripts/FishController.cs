@@ -9,13 +9,16 @@ public class FishController : MonoBehaviour
     public GameObject line;
 
     private int swimDirection = 1;
-    private bool isHooked = false;
+    private bool isHooked;
     private Vector2 hookPositionOffset;
+
+    FishingRodController fishingRodController;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        isHooked = false;
+        fishingRodController = line.GetComponent<FishingRodController>();
     }
 
     // Update is called once per frame
@@ -25,6 +28,12 @@ public class FishController : MonoBehaviour
         {
             //³¬ÀÎ °æ¿ì ³¬½Ë´ë¸¦ µû¶ó ÀÌµ¿
             transform.position = hook.transform.TransformPoint(hookPositionOffset);
+
+            if (fishingRodController.gotFishFlag)
+            {
+                Debug.Log("È¹µæ!");
+                this.gameObject.SetActive(false);
+            }
         }
     }
 
@@ -41,13 +50,9 @@ public class FishController : MonoBehaviour
     {
         isHooked = true;
 
-        FishingRodController fishingRodController = line.GetComponent<FishingRodController>();
         fishingRodController.SetFishCaughtTrue();
 
-        hookPositionOffset = transform.position - hook.transform.position;
-
-
-
+        hookPositionOffset = transform.position - collision.gameObject.transform.position;
     }
-
+   
 }
