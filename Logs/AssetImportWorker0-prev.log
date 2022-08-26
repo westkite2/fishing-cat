@@ -15,11 +15,11 @@ C:/Users/westk/Documents/Development/UnityProjects/FishingCat
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49765
+62080
 Successfully changed project path to: C:/Users/westk/Documents/Development/UnityProjects/FishingCat
 C:/Users/westk/Documents/Development/UnityProjects/FishingCat
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 175.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 50.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1125 +35,411 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.018639 seconds.
+Registered in 0.005758 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 156.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 48.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.186 seconds
+- Completed reload, in  1.855 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007629 seconds.
+Registered in 0.002135 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 159.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 61.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.960 seconds
+- Completed reload, in  2.101 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.0 MB.
 System memory in use after: 85.0 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2254.
-Total: 7.226700 ms (FindLiveObjects: 0.514700 ms CreateObjectMapping: 0.248900 ms MarkObjects: 6.022200 ms  DeleteObjects: 0.438000 ms)
+Total: 3.459200 ms (FindLiveObjects: 0.305200 ms CreateObjectMapping: 0.170600 ms MarkObjects: 2.811800 ms  DeleteObjects: 0.169800 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Scripts/FishController.cs
   artifactKey: Guid(21bd3267420e52146a60ab2646f20bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishController.cs using Guid(21bd3267420e52146a60ab2646f20bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b691232f6fbc4bb08ff01a38bb8c8fa5') in 0.259199 seconds
-  Import took 0.271730 seconds .
+Start importing Assets/Scripts/FishController.cs using Guid(21bd3267420e52146a60ab2646f20bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6136947b1f42709ac4aa2e82793684db') in 0.102024 seconds
+  Import took 0.107583 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007156 seconds.
+Registered in 0.002634 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.063 seconds
+- Completed reload, in  1.476 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.0 MB.
 System memory in use after: 85.0 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2258.
-Total: 9.744200 ms (FindLiveObjects: 1.190000 ms CreateObjectMapping: 0.461600 ms MarkObjects: 7.696100 ms  DeleteObjects: 0.391100 ms)
+Total: 5.226900 ms (FindLiveObjects: 0.657500 ms CreateObjectMapping: 0.303200 ms MarkObjects: 4.097000 ms  DeleteObjects: 0.165800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.017981 seconds.
+Registered in 0.002523 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.273 seconds
+- Completed reload, in  1.527 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.0 MB.
 System memory in use after: 85.0 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2262.
-Total: 6.601300 ms (FindLiveObjects: 0.701000 ms CreateObjectMapping: 0.236200 ms MarkObjects: 5.325500 ms  DeleteObjects: 0.335400 ms)
+Total: 3.876900 ms (FindLiveObjects: 0.266000 ms CreateObjectMapping: 0.077100 ms MarkObjects: 3.356400 ms  DeleteObjects: 0.175700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 673.047574 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006199 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.019987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.104322 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001778 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.011719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.076672 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001836 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.009927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.068727 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003253 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.012139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074636 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002476 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.016329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062136 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002241 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.066933 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002610 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.016834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.086978 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002160 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.012859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067210 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002122 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070018 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002071 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.012586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091002 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002167 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.020500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063603 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001828 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.011284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.077256 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002467 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.015956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107582 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002116 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079923 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002329 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.017068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.094365 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010371 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.030522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.108333 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002231 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.015242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.083848 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002245 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.023642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.286373 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002415 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090295 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002619 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.017892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.148516 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002193 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.016737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.076289 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001992 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.016176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.068586 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004296 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.025438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.083293 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002226 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.017696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.081148 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002451 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.086497 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002136 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.014012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095578 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002313 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.109267 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002991 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.021567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093769 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002239 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.014519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.119480 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002284 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.020378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.077330 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002016 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.086083 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002383 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.015239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102516 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003980 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.017283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.080515 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002086 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073561 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002538 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.015227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.095085 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002249 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.015465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.087490 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002119 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090154 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002119 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.017966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091749 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002021 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.011937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073726 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002861 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.016350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065566 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002040 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.083790 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001740 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.010762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074182 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002831 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.020367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.084623 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002230 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.014306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089393 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002103 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.014126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.085880 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002194 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.012094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079576 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002585 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.024864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074837 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002230 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.018381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.122779 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002000 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.011782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090882 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002262 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.015643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063980 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002278 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.016899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058403 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001879 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.010771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.143964 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002209 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.022439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.111631 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002580 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.015248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098724 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002306 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.017242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.119892 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002371 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.017775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.114839 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002586 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.019826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102440 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002522 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.015998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.084541 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001860 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.010571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079235 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002151 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067831 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002165 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.014899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.089239 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002039 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.086295 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002589 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.018532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093152 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003917 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.017411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107620 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002354 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.015378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.109138 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002623 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.015174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093505 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002610 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.016371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.111337 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002389 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.015111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093950 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002547 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.020925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.085836 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003648 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.024733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102806 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002752 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.020768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090475 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002086 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.014093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064143 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001951 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.080965 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002163 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074208 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003078 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.037713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.105566 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003923 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.014364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.100972 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002042 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.012817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.078321 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001855 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.012155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062993 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001884 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.012192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075205 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001859 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.011151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.069670 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001782 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.010536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059312 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001753 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.010685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062433 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001890 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.011882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.103245 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001911 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.013621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.101244 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002262 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.028730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074867 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002926 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:37.2980163Z'
-  Import took 0.027367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.121456 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003532 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.034430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.121863 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002314 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.016902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.388205 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005977 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.099200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.136035 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004654 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.031530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.129355 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002439 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.014281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.083559 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003524 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.014197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065465 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003030 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.014353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.082622 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001775 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.012238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.074019 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002189 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.013385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065595 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002682 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.011818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088550 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002554 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.012942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.114286 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004373 seconds
-  ERROR: Build asset version error: assets/scripts/fishingrodcontroller.cs in SourceAssetDB has modification time of '2022-08-22T12:39:08.4601066Z' while content on disk has modification time of '2022-08-22T12:39:47.3240519Z'
-  Import took 0.024546 seconds .
+  Time since last request: 896.086784 seconds.
+  path: Assets/Scripts/FishController.cs
+  artifactKey: Guid(21bd3267420e52146a60ab2646f20bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FishController.cs using Guid(21bd3267420e52146a60ab2646f20bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e6ce8d962ec58b05c9f91a896d8615') in 0.036696 seconds
+  Import took 0.055365 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009880 seconds.
+Registered in 0.007182 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.683 seconds
+- Completed reload, in  4.317 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.0 MB.
 System memory in use after: 85.0 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2266.
-Total: 7.973200 ms (FindLiveObjects: 0.602700 ms CreateObjectMapping: 0.257900 ms MarkObjects: 6.711300 ms  DeleteObjects: 0.397500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.032594 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6df6b12efefb5846f9ebcd8747a6a6') in 0.033084 seconds
-  Import took 0.045920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.170630 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6df6b12efefb5846f9ebcd8747a6a6') in 0.018340 seconds
-  Import took 0.027169 seconds .
+Total: 7.043400 ms (FindLiveObjects: 0.499600 ms CreateObjectMapping: 0.251300 ms MarkObjects: 5.892700 ms  DeleteObjects: 0.396100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009205 seconds.
+Registered in 0.007047 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.76 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.565 seconds
+- Completed reload, in  4.601 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.0 MB.
 System memory in use after: 85.0 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2270.
-Total: 7.246700 ms (FindLiveObjects: 0.539400 ms CreateObjectMapping: 0.247400 ms MarkObjects: 6.101300 ms  DeleteObjects: 0.355600 ms)
+Total: 8.689600 ms (FindLiveObjects: 0.759100 ms CreateObjectMapping: 0.320900 ms MarkObjects: 7.228700 ms  DeleteObjects: 0.377700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013218 seconds.
+Registered in 0.010401 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.868 seconds
+- Completed reload, in  5.335 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.0 MB.
 System memory in use after: 85.0 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 3.486200 ms (FindLiveObjects: 0.648700 ms CreateObjectMapping: 0.157100 ms MarkObjects: 2.511900 ms  DeleteObjects: 0.166600 ms)
+Total: 8.745400 ms (FindLiveObjects: 0.844800 ms CreateObjectMapping: 0.487600 ms MarkObjects: 6.909800 ms  DeleteObjects: 0.498400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011756 seconds.
+Registered in 0.007891 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.118 seconds
+- Completed reload, in  4.255 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.82 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.1 MB.
 System memory in use after: 85.0 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2278.
-Total: 8.101300 ms (FindLiveObjects: 0.813600 ms CreateObjectMapping: 0.539500 ms MarkObjects: 6.332600 ms  DeleteObjects: 0.411000 ms)
+Total: 7.423200 ms (FindLiveObjects: 0.559400 ms CreateObjectMapping: 0.286300 ms MarkObjects: 6.177600 ms  DeleteObjects: 0.396100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007252 seconds.
+Registered in 0.008080 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.688 seconds
+- Completed reload, in  4.368 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.1 MB.
 System memory in use after: 85.0 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2282.
-Total: 7.289400 ms (FindLiveObjects: 0.540500 ms CreateObjectMapping: 0.252500 ms MarkObjects: 6.149000 ms  DeleteObjects: 0.343700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 353.312548 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523e15a59631c736240eb3133f808e7c') in 0.041750 seconds
-  Import took 0.056380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.190725 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523e15a59631c736240eb3133f808e7c') in 0.025040 seconds
-  Import took 0.038844 seconds .
+Total: 8.275900 ms (FindLiveObjects: 0.585300 ms CreateObjectMapping: 0.321500 ms MarkObjects: 6.967000 ms  DeleteObjects: 0.394900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008394 seconds.
+Registered in 0.008370 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.872 seconds
+- Completed reload, in  4.319 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 10.529300 ms (FindLiveObjects: 0.916400 ms CreateObjectMapping: 0.548000 ms MarkObjects: 8.655900 ms  DeleteObjects: 0.404200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.519 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.1 MB.
 System memory in use after: 85.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2286.
-Total: 7.419900 ms (FindLiveObjects: 0.540200 ms CreateObjectMapping: 0.277800 ms MarkObjects: 6.237800 ms  DeleteObjects: 0.360600 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 14.594500 ms (FindLiveObjects: 0.421000 ms CreateObjectMapping: 0.239100 ms MarkObjects: 13.540400 ms  DeleteObjects: 0.390300 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 435.361772 seconds.
-  path: Assets/Scripts/FishingRodController.cs
-  artifactKey: Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FishingRodController.cs using Guid(18f5bae4ef77aab4186024d2c35cf742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6632f60915bb652b6f23d07619bc7744') in 0.042856 seconds
-  Import took 0.057518 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.202 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2294.
+Total: 7.559900 ms (FindLiveObjects: 0.735100 ms CreateObjectMapping: 0.251100 ms MarkObjects: 6.239800 ms  DeleteObjects: 0.329400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.295 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2298.
+Total: 8.915100 ms (FindLiveObjects: 0.734300 ms CreateObjectMapping: 0.624000 ms MarkObjects: 7.188000 ms  DeleteObjects: 0.365100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.348 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2302.
+Total: 7.149500 ms (FindLiveObjects: 0.511200 ms CreateObjectMapping: 0.285100 ms MarkObjects: 5.957900 ms  DeleteObjects: 0.392600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.345 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2306.
+Total: 6.048900 ms (FindLiveObjects: 0.523200 ms CreateObjectMapping: 0.241900 ms MarkObjects: 5.022400 ms  DeleteObjects: 0.258200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.313 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 8.114100 ms (FindLiveObjects: 0.911600 ms CreateObjectMapping: 0.475300 ms MarkObjects: 6.384300 ms  DeleteObjects: 0.338800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006607 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2314.
+Total: 7.237300 ms (FindLiveObjects: 0.767400 ms CreateObjectMapping: 0.344200 ms MarkObjects: 5.785800 ms  DeleteObjects: 0.334400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008045 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.242 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2318.
+Total: 6.212700 ms (FindLiveObjects: 0.604700 ms CreateObjectMapping: 0.263200 ms MarkObjects: 5.052900 ms  DeleteObjects: 0.287200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009638 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.311 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 6.918800 ms (FindLiveObjects: 0.676800 ms CreateObjectMapping: 0.217200 ms MarkObjects: 5.694400 ms  DeleteObjects: 0.326900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009385 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.943 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 15.043500 ms (FindLiveObjects: 2.855800 ms CreateObjectMapping: 0.518300 ms MarkObjects: 10.479200 ms  DeleteObjects: 1.184700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

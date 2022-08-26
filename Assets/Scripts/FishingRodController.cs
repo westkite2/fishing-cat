@@ -8,9 +8,11 @@ public class FishingRodController : MonoBehaviour
     public GameObject targetPoint;
     public GameObject hook;
     public Image barFill;
-
+    
     public bool gotFishFlag { get { return gotFish; } }
     private bool gotFish; //물고기를 배로 끌어당겼는지 여부 (사라지기 위함)
+
+    public bool isFishCaughtFlag { get { return isFishCaught; } }
 
     //모드 (exclusive)
     private bool isTargeting; //타게팅

@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class FishController : MonoBehaviour
 {
+    //¹°°í±â ¼Ó¼º
     public float swimSpeed = 1;
+    public int fishScore = 10;
+    private int swimDirection = 1;
+    
     public GameObject hook;
     public GameObject line;
-
-    private int swimDirection = 1;
+    public GameObject scoreText;
+    
     private bool isHooked;
     private Vector2 hookPositionOffset;
 
     FishingRodController fishingRodController;
+    ScoreManager scoreManager;
 
     // Start is called before the first frame update
     void Start()
     {
         isHooked = false;
         fishingRodController = line.GetComponent<FishingRodController>();
+        scoreManager = scoreText.GetComponent<ScoreManager>();
     }
 
     // Update is called once per frame
@@ -31,7 +37,7 @@ public class FishController : MonoBehaviour
 
             if (fishingRodController.gotFishFlag)
             {
-                Debug.Log("È¹µæ!");
+                scoreManager.addScore(fishScore);
                 this.gameObject.SetActive(false);
             }
         }
@@ -48,11 +54,14 @@ public class FishController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        isHooked = true;
+        if (!fishingRodController.isFishCaughtFlag)
+        {
+            isHooked = true;
+            fishingRodController.SetFishCaughtTrue();
 
-        fishingRodController.SetFishCaughtTrue();
+            hookPositionOffset = transform.position - collision.gameObject.transform.position;
 
-        hookPositionOffset = transform.position - collision.gameObject.transform.position;
+        }
     }
    
 }
