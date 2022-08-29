@@ -5,16 +5,9 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-
     public Text scoreText;
 
     private int score;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -25,6 +18,7 @@ public class ScoreManager : MonoBehaviour
     
     public void addScore(int amount)
     {
+        //점수 가산
         score += amount;
     }
 }

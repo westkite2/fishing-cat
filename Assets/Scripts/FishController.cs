@@ -8,23 +8,29 @@ public class FishController : MonoBehaviour
     public float swimSpeed = 1;
     public int fishScore = 10;
     private int swimDirection = 1;
-    
-    public GameObject hook;
-    public GameObject line;
-    public GameObject scoreText;
-    
-    private bool isHooked;
-    private Vector2 hookPositionOffset;
 
-    FishingRodController fishingRodController;
-    ScoreManager scoreManager;
+    //참조 오브젝트 및 스크립트
+    private GameObject hook;
+    private GameObject line;
+    private GameObject gameManager;
+    private FishingRodController fishingRodController;
+    private ScoreManager scoreManager;
+    
+    //상태
+    private bool isHooked;
+
+    //보조 변수
+    private Vector2 hookPositionOffset;
 
     // Start is called before the first frame update
     void Start()
     {
         isHooked = false;
+        hook = GameObject.Find("Hook");
+        line = GameObject.Find("Line");
+        gameManager = GameObject.Find("GameManager");
         fishingRodController = line.GetComponent<FishingRodController>();
-        scoreManager = scoreText.GetComponent<ScoreManager>();
+        scoreManager = gameManager.GetComponent<ScoreManager>();
     }
 
     // Update is called once per frame
@@ -54,6 +60,7 @@ public class FishController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //물고기 잡힘
         if (!fishingRodController.isFishCaughtFlag)
         {
             isHooked = true;
