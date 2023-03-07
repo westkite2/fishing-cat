@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8143951636752000675, guid: 72a503f19426a6d4c9468ab1d0cd0804, type: 3}
+  m_Sprite: {fileID: 488631014702689534, guid: 72a503f19426a6d4c9468ab1d0cd0804, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,7 +95,7 @@ Animator:
   m_GameObject: {fileID: 7290715648244222602}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e32eae919ad227a498ca08442d9dd3b9, type: 2}
+  m_Controller: {fileID: 9100000, guid: a8fb89ea91da8c249b92307e6a6235eb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -142,8 +142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21bd3267420e52146a60ab2646f20bf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fishExp: 0.2
   swimSpeed: 1
-  fishScore: 10
-  hook: {fileID: 0}
-  line: {fileID: 0}
-  scoreText: {fileID: 0}
+  swimDirection: 1

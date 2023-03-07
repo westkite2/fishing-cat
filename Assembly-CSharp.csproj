@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\FishingRodController.cs" />
-    <Compile Include="Assets\Scripts\ScoreManager.cs" />
-    <Compile Include="Assets\Scripts\FishController.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
+    <Compile Include="Assets\Scripts\ExpManager.cs" />
+    <Compile Include="Assets\Scripts\FishController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

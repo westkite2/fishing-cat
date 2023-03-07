@@ -5,17 +5,17 @@ using UnityEngine;
 public class FishController : MonoBehaviour
 {
     //물고기 속성
-    public float swimSpeed = 1;
-    public int fishScore = 10;
-    private int swimDirection = 1;
+    public float fishExp;
+    public float swimSpeed;
+    public int swimDirection;
 
     //참조 오브젝트 및 스크립트
     private GameObject hook;
     private GameObject line;
     private GameObject gameManager;
     private FishingRodController fishingRodController;
-    private ScoreManager scoreManager;
-    
+    private ExpManager expManager;
+
     //상태
     private bool isHooked;
 
@@ -30,21 +30,23 @@ public class FishController : MonoBehaviour
         line = GameObject.Find("Line");
         gameManager = GameObject.Find("GameManager");
         fishingRodController = line.GetComponent<FishingRodController>();
-        scoreManager = gameManager.GetComponent<ScoreManager>();
+        expManager = gameManager.GetComponent<ExpManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isHooked)
+        if (isHooked) //낚인 경우
         {
-            //낚인 경우 낚싯대를 따라 이동
+            //갈고리를 따라 이동
             transform.position = hook.transform.TransformPoint(hookPositionOffset);
 
+            //갈고리 도달 시 소멸
             if (fishingRodController.gotFishFlag)
             {
-                scoreManager.addScore(fishScore);
+                expManager.addExp(fishExp);
                 this.gameObject.SetActive(false);
+                isHooked = false;
             }
         }
     }
@@ -55,7 +57,6 @@ public class FishController : MonoBehaviour
         Vector2 position = transform.position;
         position.x = position.x + swimSpeed * swimDirection * Time.deltaTime;
         transform.position = position;
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -67,8 +68,6 @@ public class FishController : MonoBehaviour
             fishingRodController.SetFishCaughtTrue();
 
             hookPositionOffset = transform.position - collision.gameObject.transform.position;
-
         }
     }
-   
 }
